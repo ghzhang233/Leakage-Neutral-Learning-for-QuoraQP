@@ -5,7 +5,7 @@ Codes for <u>generating weights</u> and <u>predicting with leakage in six NLSM d
 ## Environment
 
 ```
-	tensorflow==1.11.0
+	tensorflow>=1.12.1
 	networkx==2.1
 	Keras==2.2.4
 	scipy==1.1.0

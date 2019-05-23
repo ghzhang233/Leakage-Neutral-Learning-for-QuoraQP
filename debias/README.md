@@ -9,7 +9,7 @@ Codes for <u>leakage-neutral learning in QuoraQP</u>.
 	pandas==0.23.0
 	scipy==1.1.0
 	Keras==2.2.4
-	tensorflow==1.11.0
+	tensorflow>=1.12.1
 	scikit_learn==0.21.1
 ```
 
