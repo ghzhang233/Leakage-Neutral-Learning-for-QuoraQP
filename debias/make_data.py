@@ -18,7 +18,7 @@ from sklearn.preprocessing import scale
 random.seed(1234)
 np.random.seed(1234)
 
-split_ratio = 0.8
+split_ratio = -1
 
 max_nb_words = 50000
 max_seq_len = 35
@@ -58,11 +58,6 @@ val = val[['is_duplicate', 'question1', 'question2']]
 tst = pd.read_csv(file_test, delimiter='\t', header=None)
 tst.columns = ['is_duplicate', 'question1', 'question2', 'pair_id']
 tst = tst[['is_duplicate', 'question1', 'question2']]
-
-print(len(tr))
-print(len(val))
-print(len(tst))
-exit()
 
 sick = pd.read_csv(file_sick, delimiter='\t', usecols=['sentence_A', 'sentence_B', 'relatedness_score'])
 sick.columns = ['question1', 'question2', 'is_duplicate']
