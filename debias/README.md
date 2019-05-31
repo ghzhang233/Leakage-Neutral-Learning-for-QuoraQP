@@ -55,7 +55,7 @@ PYTHONHASHSEED=0 python main.py --use_sample_weight_train --data_gen_mode prob
 If you run without GPU, add following argument:
 
 ```
---not_use_cndnn
+--not_use_cudnn
 ```
 
 If you want to specify random seeds, use following argument:
