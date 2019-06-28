@@ -52,7 +52,7 @@ PYTHONHASHSEED=0 python main.py
 PYTHONHASHSEED=0 python main.py --use_sample_weight_train --data_gen_mode prob
 ```
 
-If you run without GPU, add following argument:
+If you run without PU, add following argument:
 
 ```
 --not_use_cudnn
