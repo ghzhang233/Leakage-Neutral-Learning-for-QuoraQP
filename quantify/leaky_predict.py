@@ -75,8 +75,8 @@ def extract_unlexicalized(data):
 
     def get_num_overlap(x, y, pos=None):
         if pos is not None:
-            x = [i[0] for i in pos_tag(x) if i[1] == pos]
-            y = [i[0] for i in pos_tag(y) if i[1] == pos]
+            x = [i[0] for i in pos_tag(x, tagset='universal') if i[1] == pos]
+            y = [i[0] for i in pos_tag(y, tagset='universal') if i[1] == pos]
         cnt = 0
         for i in x:
             for j in y:
