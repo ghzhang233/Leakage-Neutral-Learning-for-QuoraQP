@@ -30,10 +30,11 @@ We use following six datasets in our paper:
 If you use the code, please cite following paper,
 
 ```latex
-@article{zhang2019selection,
+@inproceedings{zhang2019selection,
   title={Selection Bias Explorations and Debias Methods for Natural Language Sentence Matching Datasets},
   author={Zhang, Guanhua and Bai, Bing and Liang, Jian and Bai, Kun and Chang, Shiyu and Yu, Mo and Zhu, Conghui and Zhao, Tiejun},
-  journal={arXiv preprint arXiv:1905.06221},
+  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},
+  pages={4418--4429},
   year={2019}
 }
 ```
