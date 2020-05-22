@@ -106,7 +106,7 @@ print('Found %s word vectors of word2vec' % len(word2vec.keys()))
 print('Preparing embedding matrix')
 nb_words = min(max_nb_words, len(word_index))
 
-emb = np.zeros((nb_words, emb_dim))
+emb = np.zeros((nb_words + 1, emb_dim))
 miss_cnt = 0
 for word, i in word_index.items():
     if i >= nb_words:
